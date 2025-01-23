@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_purchase_order,access.purchase.order,model_purchase_order,,1,1,1,1
+access_purchase_order_line,access.purchase.order.line,model_purchase_order_line,,1,1,1,1
+access_sale_order,access.sale.order,model_sale_order,,1,1,1,1
+access_sale_order_line,access.sale.order.line,model_sale_order_line,,1,1,1,1
+access_retail_inventory_report,access.retail.inventory.report,model_retail_inventory_report,,1,0,0,0
+access_stock_location_user,access.stock.location,model_stock_location,,1,1,1,1
+access_stock_warehouse_user,access.stock.warehouse,model_stock_warehouse,,1,1,1,1
+access_stock_move_user,access.stock.move,model_stock_move,,1,1,1,1
+access_stock_adjustment,access.stock.adjustment,model_stock_adjustment,,1,1,1,1
+

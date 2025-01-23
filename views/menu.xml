@@ -1,0 +1,23 @@
+<odoo>
+    <menuitem id="menu_retail_inventory_management" name="Retail Inventory" sequence="1" />
+
+    <!-- Retail Inventory Report -->
+    <menuitem id="menu_retail_inventory_report" name="Overview"  parent="menu_retail_inventory_management" action="action_retail_inventory_report" sequence="2" />
+
+    <!-- Operations -->
+    <menuitem id="menu_operations" name="Operations" parent="menu_retail_inventory_management" sequence="4" />
+    <menuitem id="menu_purchase_order" name="Purchase Orders" parent="menu_operations" action="action_purchase_order" />
+    <menuitem id="menu_sales_order" name="Sales Orders" parent="menu_operations" action="action_sale_order"/>
+
+    <!-- Product Management -->
+    <menuitem id="menu_product_template" name="Products" parent="menu_retail_inventory_management" action="action_product_template_list" sequence="5"/>
+
+    <!-- Menu Items -->
+    <menuitem id="menu_inventory_management" name="Inventory Management" parent="menu_retail_inventory_management" sequence="6"/>
+
+    <menuitem id="menu_stock_location" name="Stock Locations" parent="menu_inventory_management" action="action_stock_location"/>
+    <menuitem id="menu_warehouse" name="Warehouses" parent="menu_inventory_management" action="action_warehouse"/>-->
+    <menuitem id="menu_stock_move" name="Stock Moves" parent="menu_inventory_management" action="action_stock_move"/>-->
+    <menuitem id="menu_stock_adjustment" name="Stock Adjustments" parent="menu_inventory_management" action="action_stock_adjustment"/>-->
+
+</odoo>
